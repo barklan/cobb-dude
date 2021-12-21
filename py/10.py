@@ -1,8 +1,0 @@
-x = Symbol('x')
-n = Dummy('n', real = True)
-solveset(3 - Mod(x, 5), x)
-# ImageSet(Lambda(n, 5*n + 3), S.Integers)
-solveset(3 - Mod(x + 2, 5), x)
-# ImageSet(Lambda(n, 5*n + 1), S.Integers)
-solveset(3 - Mod(5*x, 7), x)
-# ImageSet(Lambda(n, 7*n + 2), S.Integers)
